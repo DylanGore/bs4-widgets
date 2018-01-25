@@ -52,7 +52,7 @@ class BS4_Alert_Widget extends SiteOrigin_Widget {
                 'alert-type' => array(
                     'type' => 'select',
                     'label' => __( 'Alert Type', 'bs4-widgets' ),
-                    'default' => 'left',
+                    'default' => 'primary',
                     'options' => array(
                         'primary'    => __( 'Primary', 'bs4-widgets' ),
                         'secondary'  => __( 'Secondary', 'bs4-widgets' ),
