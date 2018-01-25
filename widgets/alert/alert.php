@@ -33,9 +33,10 @@ class BS4_Alert_Widget extends SiteOrigin_Widget {
             // The $widget_options array, which is passed through to WP_Widget.
             // It has a couple of extras like the optional help URL, which should link to your sites help or support page.
             array(
-                'description' => __('A bs4 alert widget.', 'bs4-alert-widget-text-domain'),
+                'description' => __('A Bootstrap 4 alert widget.', 'bs4-alert-widget-text-domain'),
                 'panels_groups' => array('bs4-widgets'),
-                'help'        => 'http://getbootstrap.com/docs/4.0/components/alerts/',
+                'panels_icon' => 'dashicons dashicons-editor-bold',
+                'help' => 'http://getbootstrap.com/docs/4.0/components/alerts/'
             ),
     
             //The $control_options array, which is passed through to WP_Widget

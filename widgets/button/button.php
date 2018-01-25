@@ -33,9 +33,10 @@ class BS4_Button_Widget extends SiteOrigin_Widget {
             // The $widget_options array, which is passed through to WP_Widget.
             // It has a couple of extras like the optional help URL, which should link to your sites help or support page.
             array(
-                'description' => __('A bs4 button widget.', 'bs4-button-widget-text-domain'),
+                'description' => __('A Bootstrap 4 button widget.', 'bs4-button-widget-text-domain'),
                 'panels_groups' => array('bs4-widgets'),
-                'help'        => 'http://getbootstrap.com/docs/4.0/components/buttons/',
+                'panels_icon' => 'dashicons dashicons-editor-bold',
+                'help'        => 'http://getbootstrap.com/docs/4.0/components/buttons/'
             ),
     
             //The $control_options array, which is passed through to WP_Widget
