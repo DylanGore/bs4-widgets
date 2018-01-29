@@ -46,7 +46,7 @@ class BS4_Alert_Widget extends SiteOrigin_Widget {
             //The $form_options array, which describes the form fields used to configure SiteOrigin widgets. We'll explain these in more detail later.
             array(
                 'text' => array(
-                    'type' => 'text',
+                    'type' => 'tinymce',
                     'label' => __('Alert text', 'bs4-widgets'),
                     'default' => 'This is an alert.'
                 ),

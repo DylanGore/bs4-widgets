@@ -51,7 +51,7 @@ class BS4_Card_Widget extends SiteOrigin_Widget {
                     'default' => 'Card Title'
                 ),
                 'card-text' => array(
-                    'type' => 'text',
+                    'type' => 'tinymce',
                     'label' => __('Card Body Text', 'bs4-widgets'),
                     'default' => 'Card Body Text'
                 ),
