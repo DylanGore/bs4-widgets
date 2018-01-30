@@ -1,13 +1,15 @@
 <?php
    /*
-    Plugin Name: PageBuilder Boostrap 4 Widgets
+    Plugin Name: Boostrap 4 Widgets
     Plugin URI: 
-    Description: 
+    Description: This is a Wordpress plugin created to add Bootstrap 4 components and content as widgets to SiteOrigin’s PageBuilder.
     Version: 1.0
     Author: Dylan Gore
     Author URI: https://dylangore.ie
     License: MIT
     */
+
+    //require_once('options-menu.php');
 
     //define widgets folder
     function add_bs4_widgets($folders){
@@ -29,7 +31,5 @@
 
     add_filter('siteorigin_widgets_widget_folders', 'add_bs4_widgets');
     add_filter('siteorigin_panels_widget_dialog_tabs', 'add_bs4_widget_tabs', 20);
-
-
 
 ?>
