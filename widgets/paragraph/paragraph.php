@@ -59,17 +59,6 @@ class BS4_Paragraph_Widget extends SiteOrigin_Widget {
                         'lead'  => __( 'Lead', 'bs4-widgets' )
                     ),
                 ),
-                'text-align' => array(
-                    'type' => 'select',
-                    'label' => __( 'Text Alignment', 'bs4-widgets' ),
-                    'default' => 'left',
-                    'options' => array(
-                        'left'  => __( 'Left', 'bs4-widgets' ),
-                        'right'  => __( 'Right', 'bs4-widgets' ),
-                        'center'  => __( 'Center', 'bs4-widgets' ),
-                        'justify'  => __( 'Justify', 'bs4-widgets' ),
-                    ),
-                ),
                 'custom-classes' => array(
                     'type' => 'text',
                     'label' => __('Custom CSS Classes', 'bs4-widgets'),

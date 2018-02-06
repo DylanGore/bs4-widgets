@@ -6,7 +6,7 @@
         $p_type = '';
     }
 
-    $classes = $p_type . 'text-' . wp_kses_post($instance['text-align']) . ' ' . wp_kses_post($instance['custom-classes']);
+    $classes = $p_type . ' ' . wp_kses_post($instance['custom-classes']);
 ?>
 
 <p class="<?php echo($classes); ?>">
